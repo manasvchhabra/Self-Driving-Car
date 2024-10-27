@@ -1,4 +1,4 @@
-# Self-Driving-Car-High-School-Project
+# Self-Driving-Car (High School Project)
 In high school, I participated in the CBSE Science Exhibition, where our project reached the final round. We developed a neural network for object detection using the TensorFlow API and the SSD MobileNet model. While I did not develop the neural network from scratch, I trained and modified it by adjusting various settings. The model recognized custom traffic signs and toy figures as pedestrians, running on an NVIDIA GTX 1650 GPU.
 
 To estimate object distances, we applied the pinhole camera principle. By utilizing objects of known height, we calculated the ratio of pixel height to actual height, enabling us to measure the exact distance to detected objects based on their pixel dimensions.
