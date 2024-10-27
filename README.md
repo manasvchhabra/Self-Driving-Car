@@ -27,6 +27,7 @@ Hardware Components
     Motors: Four motors control the wheels, using relative velocity for turning.
     Control System: An Arduino Uno R3 with HC-05 Bluetooth module drives the motors via two L293D motor drivers, powered by a 9V battery (Arduino) and 12V (motor drivers).
 
+
 ![Capture](https://github.com/user-attachments/assets/6617c4e8-a56f-4abc-8b57-1e4c03db0141)
 
 The camera streams video to a computer, which performs model inference and lane detection, sending commands to the Arduino via Bluetooth for car navigation.
