@@ -19,7 +19,6 @@ For lane detection, we implemented a series of steps using the OpenCV library:
 ![laneDet](https://github.com/user-attachments/assets/20a16dcd-23dd-45c2-a562-49d30f054c1b)
 
 
-For the car's movement algorithm, we ensured gradual steering towards the detected average line instead of abruptly changing angles, which minimized issues caused by noise in lane detection.
 Hardware Components
 
     Chassis: Made from an old wooden frame.
@@ -32,3 +31,6 @@ Hardware Components
 The camera streams video to a computer, which performs model inference and lane detection, sending commands to the Arduino via Bluetooth for car navigation.
 
 ![obdetTest2](https://github.com/user-attachments/assets/88571b6b-3b15-4168-b904-ea2a5c253ed6)
+
+
+For the car's movement algorithm, we ensured gradual steering towards the detected average line instead of abruptly changing angles, which minimized issues caused by noise in lane detection.
