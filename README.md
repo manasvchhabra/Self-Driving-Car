@@ -7,24 +7,24 @@ To estimate object distances, we applied the pinhole camera principle. By utiliz
 
 For lane detection, we implemented a series of steps using the OpenCV library:
 
-    Converted the image from RGB to HSV to separate intensity from color.
-    Extracted the lane line colors, applying a color chart for accurate extraction.
-    Applied Gaussian Blur to reduce noise.
-    Implemented Canny Edge Detection to identify edges.
-    Cropped the image to focus on the lower half, where lane lines appear.
-    Used Hough Line Transform to detect line segments.
-    Fitted a first-degree polynomial to the detected lines and averaged the left and right lanes.
-    Averaged the endpoints of the two lines for smoother lane following.
+> Converted the image from RGB to HSV to separate intensity from color.
+> Extracted the lane line colors, applying a color chart for accurate extraction.
+> Applied Gaussian Blur to reduce noise.
+> Implemented Canny Edge Detection to identify edges.
+> Cropped the image to focus on the lower half, where lane lines appear.
+> Used Hough Line Transform to detect line segments.
+> Fitted a first-degree polynomial to the detected lines and averaged the left and right lanes.
+> Averaged the endpoints of the two lines for smoother lane following.
 
 ![laneDet](https://github.com/user-attachments/assets/20a16dcd-23dd-45c2-a562-49d30f054c1b)
 
 
 Hardware Components
 
-    Chassis: Made from an old wooden frame.
-    Camera: A phone camera serves as the car's eyes.
-    Motors: Four motors control the wheels, using relative velocity for turning.
-    Control System: An Arduino Uno R3 with HC-05 Bluetooth module drives the motors via two L293D motor drivers, powered by a 9V battery (Arduino) and 12V (motor drivers).
+> Chassis: Made from an old wooden frame.
+> Camera: A phone camera serves as the car's eyes.
+> Motors: Four motors control the wheels, using relative velocity for turning.
+> Control System: An Arduino Uno R3 with HC-05 Bluetooth module drives the motors via two L293D motor drivers, powered by a 9V battery (Arduino) and 12V (motor drivers).
 
 ![Capture](https://github.com/user-attachments/assets/6617c4e8-a56f-4abc-8b57-1e4c03db0141)
 
